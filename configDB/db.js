@@ -1,6 +1,6 @@
 import {Sequelize} from "sequelize";
 
-const conectarBD = new Sequelize('database_citas','root','',{
+const conectarBD = new Sequelize('database_citas','postgres','3003394453',{
     host: 'localhost',
     dialect: 'postgres'
 });

@@ -12,7 +12,7 @@ import citasRoutes from './routes/Routes_Citas.js'
 const app = Express();
 app.use(cors());
 app.use('/citas', citasRoutes)
-app.use(express.json());
+app.use(Express.json());
 
 
 // verificamos la conexion a la base de datos
