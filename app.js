@@ -27,7 +27,6 @@ try {
 
 
 
-
 app.get('/', (req,res) =>{
     res.send('Hola Mundo');
 })
